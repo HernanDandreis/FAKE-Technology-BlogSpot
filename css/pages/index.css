@@ -1,0 +1,60 @@
+/* Specific Styles */
+
+body {
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Main Styles */
+
+.home-main {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    background-image: url('/assets/img/Cover.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+main .home-main-title-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .home-main-title-section h1 {
+    margin-top: 40px;
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 10px;
+    color: var(--color-secondary);
+}
+
+main .home-main-button-section {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+main .home-main-button-section button {
+    width: 120px;
+    height: 50px;
+    background-color: var(--color-primary);
+    border: 1px solid var(--color-secondary);
+    border-radius: 5px;
+    color: var(--footer-bg-color);
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: var(--color-secondary) 2px 2px 5px;
+}
+
+main .home-main-button-section button:hover {
+    transform: scale(0.98);
+}
+

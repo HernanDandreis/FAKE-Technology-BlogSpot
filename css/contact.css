@@ -1,0 +1,42 @@
+.contact-main-container {
+    width: 100%;
+    height: 250px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #DFE3E9;
+    justify-items: center;
+    align-items: center;
+    padding-bottom: 80px;
+}
+
+.contact-main-container img {
+    width: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.contact-left-container {
+    display: flex;
+    align-items: center;
+}
+
+.contact-right-container {
+    display: flex;
+    align-items: center;
+}
+
+.contact-left-container .contact-left a, 
+.contact-right-container .contact-right a {
+    display: flex;
+    justify-content: start;
+    align-items: center ;
+    margin: 20px 0 0 40px;
+    text-decoration: underline;
+}
+
+.contact-right-container .contact-right p,
+.contact-left-container .contact-left p {
+    width: 250px;
+    margin-left: 40px;
+    text-wrap: wrap;
+}
